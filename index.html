@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Encriptador</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/imgs/alura-white-logo.png">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,36 +25,38 @@
   <main>
     <article class="container">
       <section class="left">
-        <textarea class="text-input" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        <textarea class="text-input" placeholder="Ingrese el texto aquí"></textarea>
         <div class="content_buttons">
           <span class="info">
             <img src="./assets/imgs/alert.svg" alt="advertencia">
               Solo letras minúsculas y sin acentos
-          </span>
-        </div>
-        <div class="buttons">
-          <button class="btn-encrypt">Encriptar</button>
-          <button class="btn-decrypt">Desencriptar</button>
+            </span>
+            <div class="buttons">
+              <button class="btn-encrypt">Encriptar</button>
+              <button class="btn-decrypt">Desencriptar</button>
+            </div>
         </div>
       </section>
       <section class="right">
         <img src="./assets/imgs/search.svg" class="search" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
-        <textarea class="text-output" cols="20" rows="10" readonly placeholder="Ningún mensaje fue encontrado"></textarea>
+        <textarea class="text-output" readonly placeholder="Ningún mensaje fue encontrado"></textarea>
         <p class="info" id="text-info">Ingresa el texto que desees encriptar o desencriptar.</p>
         <button class="btn-copy bn-hide">Copiar</button>
       </section>
     </article>
   </main>
   <footer class="footer">
-    <p class="creator">
-      <a href="https://github.com/CesarCarmona30" target="_blank" class="owner"></a>
+    <p class="creator">Made with ❤ by
+      <a href="https://github.com/CesarCarmona30" target="_blank" class="owner">
+        César
+      </a>
     </p>
     <div>
-      <a href="" target="_blank">
-        <img class="links" src="" alt="">
+      <a href="https://github.com/CesarCarmona30" target="_blank">
+        <img class="links" src="./assets/imgs/github-black.png" alt="github_logo">
       </a>
-      <a href="" target="_blank">
-        <img class="links" src="" alt="">
+      <a href="https://www.linkedin.com/in/c%C3%A9sar-carmona-67a751308/" target="_blank">
+        <img class="links" src="./assets/imgs/linkedin.svg" alt="linkedin_logo">
       </a>
     </div>
   </footer>

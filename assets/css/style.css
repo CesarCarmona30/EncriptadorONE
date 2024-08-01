@@ -163,7 +163,7 @@ textarea::placeholder {
 	flex-direction: column;
 	justify-content: center;
 	padding: 16px;
-	gap: 32px;
+	gap: 20px;
 	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
 .setting{
@@ -207,9 +207,11 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	gap: 6px;
 }
 .creator{
-	font-size: 18px;
+	font-family: 'Inter';
+	font-size: 12px;
 }
 .owner{
 	color: #000;
