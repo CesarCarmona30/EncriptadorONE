@@ -8,7 +8,7 @@ Este proyecto es parte del programa Oracle Next Education (ONE) en colaboración
 
 - Encriptado de Texto: Convierte un mensaje de texto en un formato encriptado utilizando un conjunto de sustituciones.
 - Desencriptado de Texto: Permite revertir el mensaje encriptado a su formato original.
-- Copia al Portapapeles: Opción para copiar el mensaje encriptado o desencriptado al portapapeles con un solo clic.
+- Copiar al Portapapeles: Opción para copiar el mensaje encriptado o desencriptado al portapapeles con un solo clic.
 
 ### Tecnologías Utilizadas
 
