@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container_header">
+      <div class="header">
+        <a href="https://app.aluracursos.com/user/ccesar5830" target="_blank">
+          <img class="logo_alura" src="./assets/imgs/alura_logo.svg" alt="logo de alura">
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <article class="container">
+      <section class="left">
+        <textarea class="text-input" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        <div class="content_buttons">
+          <span class="info">
+            <img src="./assets/imgs/alert.svg" alt="advertencia">
+              Solo letras minúsculas y sin acentos
+          </span>
+        </div>
+        <div class="buttons">
+          <button class="btn-encrypt">Encriptar</button>
+          <button class="btn-decrypt">Desencriptar</button>
+        </div>
+      </section>
+      <section class="right">
+        <img src="./assets/imgs/search.svg" class="search" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+        <textarea class="text-output" cols="20" rows="10" readonly placeholder="Ningún mensaje fue encontrado"></textarea>
+        <p class="info" id="text-info">Ingresa el texto que desees encriptar o desencriptar.</p>
+        <button class="btn-copy bn-hide">Copiar</button>
+      </section>
+    </article>
+  </main>
+  <footer class="footer">
+    <p class="creator">
+      <a href="https://github.com/CesarCarmona30" target="_blank" class="owner"></a>
+    </p>
+    <div>
+      <a href="" target="_blank">
+        <img class="links" src="" alt="">
+      </a>
+      <a href="" target="_blank">
+        <img class="links" src="" alt="">
+      </a>
+    </div>
+  </footer>
+<script src="./assets/lib/script.js"></script>
+</body>
+</html>
