@@ -204,10 +204,10 @@ footer {
 	height: auto;
 	text-align: center;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	gap: 6px;
+	gap: 15px;
 }
 .creator{
 	font-family: 'Inter';
@@ -219,6 +219,9 @@ footer {
 }
 .links{
 	width: 30px;
+}
+.heart{
+	width: 8px;
 }
 /*Responsive*/
 @media screen and (max-width: 840px) {
