@@ -1,4 +1,4 @@
-# [Alura Challenge: Encriptador de texto.](https://cesarcarmona30.github.io/EncriptadorONE/)
+# [Alura ONE Challenge: Encriptador de texto.](https://cesarcarmona30.github.io/EncriptadorONE/)
 
 Este proyecto es parte del programa Oracle Next Education (ONE) en colaboración con Alura. Consiste en una aplicación web que permite encriptar y desencriptar mensajes de texto utilizando un conjunto de reglas de sustitución específicas. El objetivo del proyecto es practicar y mejorar habilidades en HTML, CSS y JavaScript, aprendidas durante los cursos de formación en la plataforma de Alura, permitiendo así, el desarrollo de una interfaz de usuario intuitiva y funcionalidades interactivas.
 
